@@ -27,7 +27,8 @@
       "url": "https://github.com/ahmedengu/swearjar-node/blob/master/LICENSE"
     }
   ],
-  "main": "lib/swearjar",
+  "main": "lib/swearjar-node",
+  "browser": "lib/swearjar-browser",
   "engines": {
     "node": ">= 0.8.0"
   },

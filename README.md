@@ -16,13 +16,13 @@ Returns true if the given string contains profanity.
 
     var swearjar = require('swearjar-extended');
     swearjar.profane("hello there"); // false
-    swearjar.profane("hello mother f-bomb"); // true
+    swearjar.profane("fuck you john doe"); // true
 
 ### swearjar.censor(text)
 
 Replaces profanity with asterisks.
 
-    var clean = swearjar.censor("f-bomb you"); // **** you
+    var clean = swearjar.censor("fuck you john doe bitch"); // **** you john doe *****
 
 ### swearjar.words(text)
 
@@ -59,7 +59,7 @@ returns:
 
 Generates a report from the given text.
 
-    swearjar.scorecard("f-bomb you"); // {sexual: 1, inappropriate: 1}
+    swearjar.scorecard("fuck you john doe bitch fuck"); // {sexual: 2, insult: 1}
 
 ### swearjar.addRegex(text)
 
@@ -79,7 +79,7 @@ Add an emoji word.
 
     swearjar.addEmoji('1f596', ['detected']);
 
-### swearjar.loadBadWords(path)
+### swearjar.loadBadWords(path) `nodeOnly`
 
 Loads a dictionary of words to be used as filter.
 
@@ -134,3 +134,6 @@ A dictionary is just a plain JSON file containing an object where its keys are t
 ## Acknowledgements
 
 `swearjar-node` is based on [Swearjar](https://github.com/joshbuddy/swearjar) (Ruby) and [Swearjar PHP](https://github.com/raymondjavaxx/swearjar-php).
+
+## Contributors
+* [JuanCaicedo](https://github.com/JuanCaicedo)

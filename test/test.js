@@ -1,5 +1,5 @@
 const assert = require('assert');
-const swearjar = require('../lib/swearjar.js');
+const swearjar = require('../lib/swearjar-node');
 
 describe('swearjar.profane', () => {
   it('should should detect bad words', () => {

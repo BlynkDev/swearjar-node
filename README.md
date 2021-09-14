@@ -1,4 +1,4 @@
-# swearjar-extended
+# swearjar-extended2
 
 Profanity detection and filtering library.
 
@@ -14,15 +14,15 @@ Profanity detection and filtering library.
 
 Sets a language to load a dictionary of words to be used as filter.
 
-NOTE: A US English default list located in the config directory is included and loaded by default.
-
-    swearjar.setLang("en");
-
 | Language                           | Code              |
 | ---------------------------------- | ----------------- |
 | English                            | en                |
 | Filipino                           | fil               |
 | Spanish                            | es                |
+
+NOTE: A US English default list located in the config directory is included and loaded by default.
+
+    swearjar.setLang("en");
 
 A dictionary is just a plain JSON file containing an object where its keys are the words to check for and the values are arrays of categories where the words fall in.
 

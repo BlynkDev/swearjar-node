@@ -1,5 +1,5 @@
 {
-  "name": "@allanlamudi/swearjar-extended",
+  "name": "swearjar-extended2",
   "description": "Profanity detection and filtering library.",
   "version": "0.2.1",
   "homepage": "https://github.com/allanLamudi/swearjar-node",
@@ -12,14 +12,10 @@
     "filter",
     "badwords"
   ],
-  "author": {
-    "name": "Allan Steven Reyes",
-    "email": "allan.reyes@lamudi.com",
-    "url": "https://github.com/allanLamudi"
-  },
+  "author": "Allan Steven Reyes <allan.reyes@lamudi.com> (https://github.com/allanLamudi)",
   "repository": {
     "type": "git",
-    "url": "git@github.com:allanLamudi/swearjar-node.git"
+    "url": "git+ssh://git@github.com/allanLamudi/swearjar-node.git"
   },
   "licenses": [
     {
@@ -40,5 +36,13 @@
   },
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/allanLamudi/swearjar-node/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "MIT"
 }

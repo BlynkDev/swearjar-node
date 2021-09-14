@@ -142,5 +142,6 @@ Add an emoji word.
 
 `swearjar-node` is based on [Swearjar](https://github.com/joshbuddy/swearjar) (Ruby) and [Swearjar PHP](https://github.com/raymondjavaxx/swearjar-php).
 
-## Contributors
-* [JuanCaicedo](https://github.com/JuanCaicedo)
+## Sources
+* [filipino-badwords-list](https://github.com/jromest/filipino-badwords-list)
+* [Shutterstock](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)

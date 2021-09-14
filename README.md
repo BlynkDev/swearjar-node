@@ -6,7 +6,7 @@ Profanity detection and filtering library.
 
 ## Installation
 
-    npm install --save swearjar-extended
+    npm install --save swearjar-extended2
 
 ## Usage
 

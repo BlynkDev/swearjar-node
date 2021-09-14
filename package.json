@@ -1,8 +1,8 @@
 {
-  "name": "@sendoter/swearjar-extended",
+  "name": "@allanlamudi/swearjar-extended",
   "description": "Profanity detection and filtering library.",
   "version": "0.2.1",
-  "homepage": "https://github.com/sendoter/swearjar-node",
+  "homepage": "https://github.com/allanLamudi/swearjar-node",
   "keywords": [
     "swear",
     "curse",
@@ -14,17 +14,17 @@
   ],
   "author": {
     "name": "Allan Steven Reyes",
-    "email": "reyesallansteven@gmail.com",
-    "url": "https://github.com/sendoter"
+    "email": "allan.reyes@lamudi.com",
+    "url": "https://github.com/allanLamudi"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sendoter/swearjar-node.git"
+    "url": "git@github.com:allanLamudi/swearjar-node.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/sendoter/swearjar-node/blob/master/LICENSE"
+      "url": "https://github.com/allanLamudi/swearjar-node/blob/master/LICENSE"
     }
   ],
   "main": "lib/swearjar-node",

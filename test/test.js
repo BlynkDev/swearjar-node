@@ -2,15 +2,19 @@ const assert = require('assert');
 const swearjar = require('../lib/swearjar-node');
 describe('swearjar.setLang', ()=> {
   it('should load English Profanity list', () => {
-    assert.equal(swearjar.setLang("us"), true);
+    assert.equal(swearjar.setLang("en"), true);
   });
 
   it('should load Filipino Profanity list', () => {
-    assert.equal(swearjar.setLang("fil"), true);
+    assert.equal(swearjar.setLang("ph"), true);
   });
 
   it('should load Spanish Profanity list', () => {
     assert.equal(swearjar.setLang("es"), true);
+  });
+
+  it('should load Bahasa Profanity list', () => {
+    assert.equal(swearjar.setLang("id"), true);
   });
 });
 describe('swearjar.profane', () => {
@@ -21,7 +25,7 @@ describe('swearjar.profane', () => {
   });
 
   it('should detect bad words in PH (Filipino)', () => {
-    swearjar.setLang("fil");
+    swearjar.setLang("ph");
     assert.equal(swearjar.profane('mahal kita as a friend john doe'), false);
     assert.equal(swearjar.profane('pakyu john doe'), true);
     assert.equal(swearjar.profane('ampota john doe'), true);
@@ -31,6 +35,12 @@ describe('swearjar.profane', () => {
     swearjar.setLang("es");
     assert.equal(swearjar.profane('te quiero john doe'), false);
     assert.equal(swearjar.profane('vete a la mierda john doe'), true);
+  });
+
+  it('should detect bad words in ID (Bahasa)', () => {
+    swearjar.setLang("id");
+    assert.equal(swearjar.profane('aku mencintaimu john doe'), false);
+    assert.equal(swearjar.profane('goblok john doe'), true);
   });
 
   it('should detect uppercase bad words in EN', () => {

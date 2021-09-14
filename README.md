@@ -1,5 +1,7 @@
 # swearjar-extended2
 
+This is a modified version of [swearjar-extended](https://github.com/ahmedengu/swearjar-node)
+
 Profanity detection and filtering library.
 
 [![Build Status](https://travis-ci.org/raymondjavaxx/swearjar-node.svg?branch=master)](https://travis-ci.org/raymondjavaxx/swearjar-node)
@@ -17,8 +19,9 @@ Sets a language to load a dictionary of words to be used as filter.
 | Language                           | Code              |
 | ---------------------------------- | ----------------- |
 | English                            | en                |
-| Filipino                           | fil               |
+| Filipino                           | ph                |
 | Spanish                            | es                |
+| Bahasa                             | id                |
 
 NOTE: A US English default list located in the config directory is included and loaded by default.
 
@@ -145,3 +148,4 @@ Add an emoji word.
 ## Sources
 * [filipino-badwords-list](https://github.com/jromest/filipino-badwords-list)
 * [Shutterstock](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+* [NLP_bahasa_resources](https://github.com/louisowen6/NLP_bahasa_resources)

@@ -10,6 +10,64 @@ Profanity detection and filtering library.
 
 ## Usage
 
+### swearjar.setLang(text)
+
+Sets a language to load a dictionary of words to be used as filter.
+
+NOTE: A US English default list located in the config directory is included and loaded by default.
+
+    swearjar.setLang("en");
+
+| Language                           | Code              |
+| ---------------------------------- | ----------------- |
+| English                            | en                |
+| Filipino                           | fil               |
+| Spanish                            | es                |
+
+A dictionary is just a plain JSON file containing an object where its keys are the words to check for and the values are arrays of categories where the words fall in.
+
+```
+{
+  "regex": {
+    "\\w*fuck\\w*": [
+      "category1",
+      "category2"
+    ],
+    "word2": [
+      "category1"
+    ],
+    "word3": [
+      "category2"
+    ]
+  },
+  "simple": {
+    "word1": [
+      "category1",
+      "category2"
+    ],
+    "word2": [
+      "category1"
+    ],
+    "word3": [
+      "category2"
+    ]
+  },
+  "emoji": {
+    "1f4a9": [
+      "category1",
+      "category2"
+    ],
+    "word2": [
+      "category1"
+    ],
+    "word3": [
+      "category2"
+    ]
+  }
+}
+```
+
+
 ### swearjar.profane(text)
 
 Returns true if the given string contains profanity.
@@ -78,57 +136,6 @@ Add a simple word.
 Add an emoji word.
 
     swearjar.addEmoji('1f596', ['detected']);
-
-### swearjar.loadBadWords(path) `nodeOnly`
-
-Loads a dictionary of words to be used as filter.
-
-NOTE: A US English default list located in the config directory is included and loaded by default.
-
-    swearjar.loadBadWords('./config/profanity.json');
-
-A dictionary is just a plain JSON file containing an object where its keys are the words to check for and the values are arrays of categories where the words fall in.
-
-```
-{
-  "regex": {
-    "\\w*fuck\\w*": [
-      "category1",
-      "category2"
-    ],
-    "word2": [
-      "category1"
-    ],
-    "word3": [
-      "category2"
-    ]
-  },
-  "simple": {
-    "word1": [
-      "category1",
-      "category2"
-    ],
-    "word2": [
-      "category1"
-    ],
-    "word3": [
-      "category2"
-    ]
-  },
-  "emoji": {
-    "1f4a9": [
-      "category1",
-      "category2"
-    ],
-    "word2": [
-      "category1"
-    ],
-    "word3": [
-      "category2"
-    ]
-  }
-}
-```
 
 
 ## Acknowledgements

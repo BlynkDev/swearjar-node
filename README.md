@@ -16,15 +16,16 @@ Profanity detection and filtering library.
 
 Sets a language to load a dictionary of words to be used as filter.
 
-| Language                           | Code              |
-| ---------------------------------- | ----------------- |
-| English                            | en                |
-| Filipino                           | ph                |
-| Spanish                            | es                |
-| Bahasa                             | id                |
+| Language                                                 | Code              |
+| -------------------------------------------------------- | ----------------- |
+| [English](lib/config/en.json)                            | en                |
+| [Filipino](lib/config/ph.json)                           | ph                |
+| [Spanish](lib/config/es.json)                            | es                |
+| [Bahasa](lib/config/en.json)                             | id                |
 
 NOTE: A US English default list located in the config directory is included and loaded by default.
 
+    var swearjar = require('swearjar-extended2');
     swearjar.setLang("en");
 
 A dictionary is just a plain JSON file containing an object where its keys are the words to check for and the values are arrays of categories where the words fall in.
@@ -75,7 +76,7 @@ A dictionary is just a plain JSON file containing an object where its keys are t
 
 Returns true if the given string contains profanity.
 
-    var swearjar = require('swearjar-extended');
+    var swearjar = require('swearjar-extended2');
     swearjar.profane("hello there"); // false
     swearjar.profane("fuck you john doe"); // true
 

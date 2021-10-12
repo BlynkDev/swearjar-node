@@ -9,7 +9,7 @@
     "pissed off\\b": [
       "inappropriate"
     ],
-    "\\w*n[i1]gg[e3]r\\w*": [
+    "\\w*n[i1]([Gg][Gg]|[Gg])[e3]r\\w*": [
       "discriminatory"
     ],
     "\\w*f[uv]ck\\w*": [
@@ -25,7 +25,7 @@
       "inappropriate",
       "blasphemy"
     ],
-    "\\w*f[a4]gg[o0]t\\w*": [
+    "\\w*f[a4]([Gg][Gg]|[Gg])[o0]t\\w*": [
       "discriminatory"
     ],
     "\\w*wh[o0]r[e3]\\w*": [
@@ -449,6 +449,9 @@
       "discriminatory"
     ],
     "fagot": [
+      "discriminatory"
+    ],
+    "faggot": [
       "discriminatory"
     ],
     "fagtard": [

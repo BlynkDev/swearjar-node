@@ -21,7 +21,7 @@ Sets a language to load a dictionary of words to be used as filter.
 | [English](lib/config/en.json)                            | en                |
 | [Filipino](lib/config/ph.json)                           | ph                |
 | [Spanish](lib/config/es.json)                            | es                |
-| [Bahasa](lib/config/en.json)                             | id                |
+| [Bahasa](lib/config/id.json)                             | id                |
 
 NOTE: A US English default list located in the config directory is included and loaded by default.
 

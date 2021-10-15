@@ -21,14 +21,23 @@ describe('swearjar.profane', () => {
   it('should detect bad words in EN (English)', () => {
     swearjar.setLang("en");
     assert.equal(swearjar.profane('i love you john doe'), false);
-    assert.equal(swearjar.profane('john doe fvck you '), true);
+    assert.equal(swearjar.profane('john doe fvck you'), true);
+    assert.equal(swearjar.profane('john doe pissedoff'), true);
+    
   });
 
   it('should detect bad words in PH (Filipino)', () => {
     swearjar.setLang("ph");
     assert.equal(swearjar.profane('mahal kita as a friend john doe'), false);
     assert.equal(swearjar.profane('pakyu john doe'), true);
-    assert.equal(swearjar.profane('ampota john doe'), true);
+    assert.equal(swearjar.profane('john doe ampota'), true);
+    assert.equal(swearjar.profane('john doe pota'), true);
+    assert.equal(swearjar.profane('john doe puta'), true);
+    assert.equal(swearjar.profane('john doe Computation'), false);
+    assert.equal(swearjar.profane('john doe Reputable'), false);
+    assert.equal(swearjar.profane('john doe Competition'), false);
+    assert.equal(swearjar.profane('john doe titi'), true);
+
   });
 
   it('should detect bad words in ES (Spanish)', () => {
@@ -64,9 +73,10 @@ describe('swearjar.addRegex', () => {
 
   it('should should detect bad words, word exist', () => {
     swearjar.setLang("en")
-    swearjar.addRegex('hard ons?\\b', ['detected']);
+    swearjar.addRegex('hard(\\s|)ons?\\b', ['detected']);
     assert.equal(swearjar.profane('i love you john doe'), false);
     assert.equal(swearjar.profane('hard ons you john doe'), true);
+    assert.equal(swearjar.profane('hardons you john doe'), true);
     assert.deepEqual(swearjar.words('hard ons you john doe'), {
       'hard ons': [
         'sexual',

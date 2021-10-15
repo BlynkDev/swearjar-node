@@ -1,17 +1,18 @@
 {
     "regex": {
-        "\\w*[tp][i1e3][tp][i1e3]\\w*": [
-            "sexual"
+        "\\b((\\w*a|m|\\w*am)?(p[ou]t[a4])\\w*)\\b":[
+            "insult"
         ],
-        "\\w*p[ouv]t[a4]\\w*": [
+        "tit[ie]\\b": [
             "sexual"
         ]
+
     },
     "simple":{
         "amputa":[
             "insult"
         ],
-        "animal ka":[
+        "animal":[
             "insult"
         ],
         "bilat":[
@@ -41,7 +42,7 @@
         "bwisit":[
             "inappropriate"
         ],
-        "demonyo ka":[
+        "demonyo":[
             "inappropriate"
         ],
         "engot":[
@@ -62,7 +63,7 @@
         "habal":[
             "inappropriate"
         ],
-        "hayop ka":[
+        "hayop":[
             "insult"
         ],
         "hayup":[
@@ -202,6 +203,9 @@
         ],
         "punyeta":[
             "inappropriate"
+        ],
+        "pota": [
+            "insult"
         ],
         "puta":[
             "insult"

@@ -1,12 +1,12 @@
 {
   "regex": {
-    "hard ons?\\b": [
+    "hard(\\s|)ons?\\b": [
       "sexual"
     ],
-    "jerk off\\b": [
+    "jerk(\\s|)off\\b": [
       "sexual"
     ],
-    "pissed off\\b": [
+    "pissed(\\s|)off\\b": [
       "inappropriate"
     ],
     "\\w*n[i1]([Gg][Gg]|[Gg])[e3]r\\w*": [
@@ -779,9 +779,6 @@
     "punanny": [
       "sexual"
     ],
-    "punta": [
-      "insult"
-    ],
     "pusies": [
       "sexual",
       "insult"
@@ -820,6 +817,9 @@
     ],
     "ruski": [
       "discriminatory"
+    ],
+    "sex": [
+      "sexual"
     ],
     "schlong": [
       "sexual"
@@ -1036,6 +1036,9 @@
       "sexual"
     ],
     "vagina": [
+      "sexual"
+    ],
+    "viagra": [
       "sexual"
     ],
     "vjayjay": [

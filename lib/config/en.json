@@ -40,9 +40,15 @@
       "sexual"
     ],
     "arse": [
+      "sexual",
+      "insult"
+    ],
+    "arses": [
+      "sexual",
       "insult"
     ],
     "arsehole": [
+      "sexual",
       "insult"
     ],
     "ass": [
@@ -89,6 +95,7 @@
       "insult"
     ],
     "asshole": [
+      "sexual",
       "insult"
     ],
     "asshopper": [
@@ -98,15 +105,18 @@
       "discriminatory"
     ],
     "asslick": [
+      "sexual",
       "insult"
     ],
     "asslicker": [
+      "sexual",
       "insult"
     ],
     "assmonkey": [
       "insult"
     ],
     "assmunch": [
+      "sexual",
       "insult"
     ],
     "assmuncher": [
@@ -133,6 +143,9 @@
     "bastard": [
       "insult"
     ],
+    "bastards": [
+      "insult"
+    ],
     "beaner": [
       "discriminatory"
     ],
@@ -144,6 +157,18 @@
     ],
     "bestiality": [
       "sexual"
+    ],
+    "bellend": [
+      "sexual",
+      "insult"
+    ],
+    "bell end": [
+      "sexual",
+      "insult"
+    ],
+    "bell-end": [
+      "sexual",
+      "insult"
     ],
     "blow job": [
       "sexual"
@@ -160,10 +185,19 @@
     "boner": [
       "sexual"
     ],
+    "boners": [
+      "sexual"
+    ],
     "boob": [
       "sexual"
     ],
+    "booby": [
+      "sexual"
+    ],
     "boobie": [
+      "sexual"
+    ],
+    "boobies": [
       "sexual"
     ],
     "bullshit": [
@@ -299,6 +333,12 @@
       "sexual"
     ],
     "cumshot": [
+      "sexual"
+    ],
+    "cum shot": [
+      "sexual"
+    ],
+    "cum-shot": [
       "sexual"
     ],
     "cumslut": [
@@ -650,6 +690,9 @@
     "nigga": [
       "discriminatory"
     ],
+    "nigger": [
+      "discriminatory"
+    ],
     "niglet": [
       "discriminatory"
     ],
@@ -825,6 +868,9 @@
       "sexual"
     ],
     "scrote": [
+      "sexual"
+    ],
+    "scrotum": [
       "sexual"
     ],
     "shit": [
@@ -1024,7 +1070,12 @@
       "inappropriate"
     ],
     "twat": [
-      "sexual"
+      "sexual",
+      "violent"
+    ],
+    "twats": [
+      "sexual",
+      "violent"
     ],
     "twatlips": [
       "insult"
@@ -1045,6 +1096,13 @@
       "sexual"
     ],
     "wank": [
+      "sexual"
+    ],
+    "wanker": [
+      "sexual",
+      "insult"
+    ],
+    "wanking": [
       "sexual"
     ],
     "wetback": [

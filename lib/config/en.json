@@ -55,6 +55,10 @@
       "sexual",
       "insult"
     ],
+    "asses": [
+      "sexual",
+      "insult"
+    ],
     "ass-hat": [
       "insult"
     ],
@@ -474,7 +478,12 @@
       "discriminatory"
     ],
     "fag": [
-      "discriminatory"
+      "discriminatory",
+      "drugs"
+    ],
+    "fags": [
+      "discriminatory",
+      "drugs"
     ],
     "fagbag": [
       "discriminatory"
@@ -486,7 +495,8 @@
       "discriminatory"
     ],
     "fagg": [
-      "discriminatory"
+      "discriminatory",
+      "drugs"
     ],
     "fagot": [
       "discriminatory"
@@ -819,6 +829,10 @@
     "prick": [
       "sexual"
     ],
+    "puff": [
+      "sexual",
+      "drug"
+    ],
     "punanny": [
       "sexual"
     ],
@@ -1090,7 +1104,8 @@
       "sexual"
     ],
     "viagra": [
-      "sexual"
+      "sexual",
+      "drug"
     ],
     "vjayjay": [
       "sexual"
